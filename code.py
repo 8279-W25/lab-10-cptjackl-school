@@ -1,4 +1,4 @@
-from adafruit_circuitplayground import cp
+ffrom adafruit_circuitplayground import cp
 import time
 
 morseDict = {
@@ -92,8 +92,8 @@ def displayMorse(morse):
     timing = askTime()/3
 
     print(f'The message in morse is {morse}')
-    print(f'The color in morse is {colors}')
-    print(f'The timing in morse is {timing} ({timing*3}/3)')
+    print(f'The color is {colors}')
+    print(f'The timing per dot is{timing}s ({timing*3}s/3)')
 
     for char in morse:
         if char == ' ':
