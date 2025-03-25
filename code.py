@@ -1,4 +1,4 @@
-ffrom adafruit_circuitplayground import cp
+from adafruit_circuitplayground import cp
 import time
 
 morseDict = {
@@ -51,12 +51,12 @@ def userInput():
    return clean_message.split()
 
 def convertToMorse(message):
-   morse = ''
+    morse = ''
 
-   for word in message:
-    for letter in word:
-        morse = morse + morseDict[letter] + '   '
-    morse = morse + '/'
+    for word in message:
+        for letter in word:
+            morse = morse + morseDict[letter] + '   '
+        morse = morse + '/'
 
     return morse
 
