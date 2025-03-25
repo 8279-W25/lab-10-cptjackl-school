@@ -63,4 +63,4 @@ def convertToMorse(message):
 
 
 
-print(convertToMorse(askUser()))
+print(convertToMorse(userInput()))
